@@ -1,0 +1,8 @@
+﻿# encoding: utf-8
+# Release 17.2
+SetScriptVersion(Version="17.2.225")
+system1 = GetSystem(Name="ICM 1")
+iCM1 = system1.GetContainer(ComponentName="ICM")
+iCM1.Open()
+ICEMCFD.Refresh(Container=iCM1)
+Save(Overwrite=True)

@@ -1,0 +1,7 @@
+
+"C:/Program Files/ANSYS Inc/v172/icemcfd/win64_amd/bin/icemcfd.bat" -batch -wb2 -wb_command "import {\\Client\C$\Users\Dave\Desktop\UMERgun\Model5\project1.prj}" -wb_cur_dir "C:/Users/matt0089/AppData/Local/Temp/9/WB_ENGRAP985_matt0089_10972_2/unsaved_project_files/dp0/ICM-1/ICEMCFD" -wb_init_proj_name "ICM-1"
+
+Checked out ansyslmd feature aa_r (product ANSYS Academic Research) from server 1055@ansys-research.eng.umd.edu
+Customer number is 427805
+ICEM CFD project \\Client\C$\Users\Dave\Desktop\UMERgun\Model5\project1.prj imported to Workbench
+ICEM CFD's return status was 3.

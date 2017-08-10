@@ -1,0 +1,70 @@
+# Written by ICEM CFD 15.0, user JR, Mon Jun 19 5:39:50 PM Eastern Daylight Time 2017
+
+begin family CATHODEGRID__COL__1_1_1
+    begin solver "ANSYS Fluent"
+        begin bctype color
+            active 1
+            color 3149050 1
+        end bctype color
+    end solver "ANSYS Fluent"
+end family CATHODEGRID__COL__1_1_1
+
+begin family ANODE__COL__1_2_1
+    begin solver "ANSYS Fluent"
+    end solver "ANSYS Fluent"
+end family ANODE__COL__1_2_1
+
+begin family PIERCECONE__COL__1_3_1
+    begin solver "ANSYS Fluent"
+    end solver "ANSYS Fluent"
+end family PIERCECONE__COL__1_3_1
+
+begin family ANODEGRID__COL__1_4_1
+    begin solver "ANSYS Fluent"
+    end solver "ANSYS Fluent"
+end family ANODEGRID__COL__1_4_1
+
+begin family GEOM
+    begin solver "ANSYS Fluent"
+        begin bctype color
+            active 1
+            color 16663900 1
+        end bctype color
+    end solver "ANSYS Fluent"
+end family GEOM
+
+begin family PIERCECONE__COL__1_3_1:ROTATION
+    begin solver "ANSYS Fluent"
+        begin bctype color
+            active 1
+            color 8729580 1
+        end bctype color
+        begin bctype ISPC
+            active 1
+            arg1 1 1
+            arg2 5 2
+            arg3 10 3
+            arg4 1 4
+            arg5 1 5
+        end bctype ISPC
+    end solver "ANSYS Fluent"
+end family PIERCECONE__COL__1_3_1:ROTATION
+
+begin family CATHODE_CONE_GAP
+    begin solver "ANSYS Fluent"
+        begin bctype color
+            active 1
+            color 14752300 1
+        end bctype color
+    end solver "ANSYS Fluent"
+end family CATHODE_CONE_GAP
+
+begin family CREATED_MATERIAL_8
+    begin solver "ANSYS Fluent"
+    end solver "ANSYS Fluent"
+end family CREATED_MATERIAL_8
+
+begin family CREATED_MATERIAL_9
+    begin solver "ANSYS Fluent"
+    end solver "ANSYS Fluent"
+end family CREATED_MATERIAL_9

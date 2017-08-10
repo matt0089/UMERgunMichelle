@@ -1,0 +1,20 @@
+﻿# encoding: utf-8
+# Release 17.2
+SetScriptVersion(Version="17.2.225")
+template1 = GetTemplate(TemplateName="ICEMCFD")
+system1 = template1.CreateSystem()
+iCM1 = system1.GetContainer(ComponentName="ICM")
+iCM1.Open()
+ICEMCFD.Refresh(Container=iCM1)
+fileType1 = GetFileType(Name="ICEMCFDProject")
+ImportFile(
+    FilePath="//Client/C$/Users/Dave/Desktop/UMERgun/Model5/project1.prj",
+    FileType=fileType1)
+system1.Delete()
+system2 = GetSystem(Name="ICM 1")
+iCM2 = system2.GetContainer(ComponentName="ICM")
+iCM2.Open()
+ICEMCFD.Refresh(Container=iCM2)
+Save(Overwrite=True)
+Save(Overwrite=True)
+Save(Overwrite=True)

@@ -1,0 +1,30 @@
+ $Header
+  numberSpatialDimensions = 3
+  numberBlocks = 1
+  blockNames = "domain",
+  numberMaterials = 2
+  materialNames = "CREATED_MATERIAL_8", "CREATED_MATERIAL_9",
+  materialIDs = 8, 9,
+  numberBoundaries = 6
+  boundaryNames = "CATHODEGRID__COL__1_1_1", "ANODE__COL__1_2_1", "PIERCECONE__COL__1_3_1", "ANODEGRID__COL__1_4_1", "GEOM", "CATHODE_CONE_GAP",
+  boundaryIDs = 1, 2, 3, 4, 5, 7,
+ $End
+
+ $BlockInfo:domain
+  elementShape = "TETRA_4"
+  gridGeometry = "unstructured"
+  elementShapeOrder = 1
+  numberMaterials = 2
+  materialNames = "CREATED_MATERIAL_8", "CREATED_MATERIAL_9",
+  numberBoundaries = 6
+  boundaryNames = "CATHODEGRID__COL__1_1_1", "ANODE__COL__1_2_1", "PIERCECONE__COL__1_3_1", "ANODEGRID__COL__1_4_1", "GEOM", "CATHODE_CONE_GAP",
+  numberNodes = 199221
+  numberElements = 1127625
+  numberFaces = 44232
+  numberEdges = 0
+  numberElementNodeIndices = 4510500
+  numberFaceNodeIndices = 132696
+  numberEdgeNodeIndices = 0
+  numberElementsByDim = 	0	0	44232	1127625
+  numberNodeElementsByDim = 	0	0	132696	4510500
+ $End

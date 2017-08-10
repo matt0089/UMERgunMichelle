@@ -1,0 +1,18 @@
+# solver params file written on Mon Jun 19 5:39:50 PM Eastern Daylight Time 2017 by JR@hfss
+
+begin Local_Coordinates LCS1
+    Coordinate_System_ID 1
+    Create 1
+    Pt1_1 -1.41553e-015
+    Pt1_2 -0.00047603
+    Pt1_3 -0.000422775
+    Pt2_1 4.4356370000977e-014
+    Pt2_2 0.9995229707502601
+    Pt2_3 0.0006329050007919999
+    Pt3_1 0.9999999999999986
+    Pt3_2 -0.0004760589161
+    Pt3_3 -0.0003953841
+    Reference_Coordinate_System 0
+    Scale 1.0
+    Type Rectangular
+end Local_Coordinates LCS1
